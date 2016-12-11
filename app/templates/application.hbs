@@ -1,0 +1,41 @@
+
+{{#side-menu}}
+  <ul class="sideBar">
+    <li class="sideHeader">{{fa-icon "file"}} Files</li>
+    <li class="sideItem">
+    </li>
+    <li class="seperator"/>
+
+    <li class="sideHeader">{{fa-icon "upload"}} Upload</li>
+    <li class="sideItem">
+      {{file-upload url="/upload"}}
+    </li>
+    <li class="seperator"/>
+
+    <li class="sideHeader">{{fa-icon "table"}} View Table</li>
+    <li>
+    </li>
+    <li class="seperator"/>
+    
+  </ul>
+{{/side-menu}}
+{{content-backdrop}}
+
+<header class="header-basic-light">
+
+  {{#side-menu-toggle}}
+  <span class="icon-limiter">{{fa-icon "bars"}}</span>
+  {{/side-menu-toggle}}
+
+	<div class="header-limiter">
+
+		<h1><a href="#">SOF<span>y</span>A</a></h1>
+
+		<nav>
+			<a href="/" class="selected">Home</a>
+			<a href="/">About</a>
+			<a href="/">Faq</a>
+		</nav>
+	</div>
+
+</header>
