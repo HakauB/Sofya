@@ -1,7 +1,7 @@
 
 {{#side-menu}}
   <ul class="sideBar">
-    <li class="sideHeader">{{fa-icon "file"}} Files</li>
+    <li class="sideHeader"><a class="menulink" href="/files">{{fa-icon "file"}} Files</a></li>
     <li class="sideItem">
     </li>
     <li class="seperator"/>
@@ -12,11 +12,11 @@
     </li>
     <li class="seperator"/>
 
-    <li class="sideHeader">{{fa-icon "table"}} View Table</li>
+    <li class="sideHeader"><a class="menulink" href="/table">{{fa-icon "table"}} View Table</a></li>
     <li>
     </li>
     <li class="seperator"/>
-    
+
   </ul>
 {{/side-menu}}
 {{content-backdrop}}
@@ -39,3 +39,5 @@
 	</div>
 
 </header>
+
+ {{outlet}}

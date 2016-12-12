@@ -43,6 +43,11 @@
 	padding-top: 15px;
 }
 
+.menulink {
+	text-decoration: none;
+	color: #86a3d5;
+}
+
 .sideHeader {
 	color: #fff;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -54,7 +59,7 @@
 }
 
 .seperator {
-	border-top: 2px dashed #86a3d5;
+	border-top: 2px dashed #9E9E9E;
 	margin-right: 22px;
 	height: 30px;
 }
@@ -62,10 +67,29 @@
 .side-menu.ember-view {
 	transform: translateX(0%);
 	transition: transform 0.2s ease-out;
-	width: 30% !important;
+	width: 35% !important;
 	right: initial;
-	left: -30% !important;
+	left: -35% !important;
 	background-color: #455A64;
+}
+
+.table-container {
+	position: absolute;
+	left: 0px;
+	top: 120px;
+	margin-left: 10px;
+	/* Firefox */
+	height: -moz-calc(100% - 120px);
+	width: -moz-calc(100% - 20px);
+	/* WebKit */
+	height: -webkit-calc(100% - 120px);
+	width: -webkit-calc(100% - 20px);
+	/* Opera */
+	height: -o-calc(100% - 120px);
+	width: -o-calc(100% - 20px);
+	/* Standard */
+	height: calc(100% - 120px);
+	width: calc(100% - 20px);
 }
 
 /* Logo */
@@ -151,6 +175,6 @@
 /* For the headers to look good, be sure to reset the margin and padding of the body */
 
 body {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
