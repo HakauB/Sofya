@@ -1,7 +1,6 @@
 # sofya
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Personal insterest project. Will update this when I get a better handle on what it's trying to do, and how.
 
 ## Prerequisites
 
