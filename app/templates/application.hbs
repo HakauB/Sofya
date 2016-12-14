@@ -1,6 +1,16 @@
 
+
 {{#side-menu}}
   <ul class="sideBar">
+    <li class="sideHeader">
+      {{#if session.isAuthenticated}}
+        <a {{action 'invalidateSession'}}>Logout</a>
+      {{else}}
+        {{#link-to 'login'}}<a class="menulink">Login</a>{{/link-to}}
+      {{/if}}
+    </li>
+    <li class="seperator" />
+
     <li class="sideHeader"><a class="menulink" href="/files">{{fa-icon "file"}} Files</a></li>
     <li class="sideItem">
     </li>
@@ -16,7 +26,6 @@
     <li>
     </li>
     <li class="seperator"/>
-
   </ul>
 {{/side-menu}}
 {{content-backdrop}}

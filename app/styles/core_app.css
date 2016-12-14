@@ -27,7 +27,7 @@
 	height: inherit;
 	width: 72px;
 	background-color: #FF5722;
-	border-right: 1px solid #CFD8DC;
+	border-right: 2px solid #fff;
 }
 
 .side-menu-toggle.left.ember-view {
@@ -67,9 +67,9 @@
 .side-menu.ember-view {
 	transform: translateX(0%);
 	transition: transform 0.2s ease-out;
-	width: 35% !important;
+	width: 30% !important;
 	right: initial;
-	left: -35% !important;
+	left: -30% !important;
 	background-color: #455A64;
 }
 
