@@ -43,6 +43,11 @@
 	padding-top: 15px;
 }
 
+a {
+	text-decoration: none;
+	color: #86a3d5;
+}
+
 .menulink {
 	text-decoration: none;
 	color: #86a3d5;
@@ -56,6 +61,10 @@
 .sideItem {
 	color: #fff;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+label {
+    font: normal 12px courier !important;
 }
 
 .seperator {

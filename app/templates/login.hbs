@@ -1,10 +1,31 @@
 <form {{action 'authenticate' on='submit'}}>
-  <label for="identification">Login</label>
-  {{input id='identification' placeholder='Enter Login' value=identification}}
-  <label for="password">Password</label>
-  {{input id='password' placeholder='Enter Password' type='password' value=password}}
-  <button type="submit">Login</button>
-  {{#if errorMessage}}
-    <p>{{errorMessage}}</p>
-  {{/if}}
+  <div style="position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  background-color: #60B5CC;
+  border-radius: 3px;">
+  <ul style="list-style: none; margin-left: 10px;">
+    <li style="height: 35px; margin-top: 60px;">
+      <label for="identification" style="padding-right:22px;">Login</label>
+      {{input id='identification' placeholder='Enter Login' value=identification}}
+    </li>
+    <li style="height: 35px;">
+      <label for="password">Password</label>
+      {{input id='password' placeholder='Enter Password' type='password' value=password}}
+    </li>
+    <li style="height: 35px; float: right; margin-right: 56px;">
+      <button type="submit">Login</button>
+    </li>
+    <li>
+      {{#if errorMessage}}
+        <p>{{errorMessage}}</p>
+      {{/if}}
+    </li>
+  </ul>
+</div>
 </form>
