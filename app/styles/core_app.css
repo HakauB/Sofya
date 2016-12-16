@@ -1,9 +1,16 @@
+a {
+	text-decoration: none;
+	color: #86a3d5;
+}
+
+/* Header */
+
 .header-basic-light{
 	padding: 20px 40px;
 	box-sizing:border-box;
 	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 	height: 80px;
-	background-color: #FF5722;
+	background-color: #DE1B1B;
 }
 
 .header-basic-light .header-limiter {
@@ -26,9 +33,11 @@
 	left: 0px;
 	height: inherit;
 	width: 72px;
-	background-color: #FF5722;
+	background-color: #DE1B1B;
 	border-right: 2px solid #fff;
 }
+
+/* Side Menu */
 
 .side-menu-toggle.left.ember-view {
 	position: absolute;
@@ -41,11 +50,6 @@
 .sideBar {
 	list-style: none;
 	padding-top: 15px;
-}
-
-a {
-	text-decoration: none;
-	color: #86a3d5;
 }
 
 .menulink {
@@ -64,7 +68,7 @@ a {
 }
 
 label {
-    font: normal 12px courier !important;
+    font:18px Arial, Helvetica, sans-serif;
 }
 
 .seperator {
@@ -81,6 +85,8 @@ label {
 	left: -30% !important;
 	background-color: #455A64;
 }
+
+/* Table */
 
 .table-container {
 	position: absolute;
@@ -144,6 +150,45 @@ label {
 	padding:6px 10px;
 }
 
+/* Login */
+.loginDiv {
+	position: absolute;
+  	margin: auto;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	width: 300px;
+  	height: 200px;
+  	background-color: #E9E581;
+  	border-radius: 12px;
+}
+.loginList {
+	list-style: none;
+	margin-left: 10px;
+}
+
+#loginField {
+	margin-top: 60px;
+}
+
+#loginPassField {
+	margin-top: 15px;
+}
+
+#loginButtonField {
+	height: 35px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 56px;
+}
+
+#loginLabel {
+	padding-right:35px;
+}
+
+/* Registration */
+
 /* Making the header responsive. */
 
 @media all and (max-width: 600px) {
@@ -186,4 +231,5 @@ label {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #F6F6F6;
 }

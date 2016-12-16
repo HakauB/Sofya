@@ -1,24 +1,15 @@
 <form {{action 'authenticate' on='submit'}}>
-  <div style="position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 300px;
-  height: 200px;
-  background-color: #60B5CC;
-  border-radius: 3px;">
-  <ul style="list-style: none; margin-left: 10px;"> <!-- lol -->
-    <li style="height: 35px; margin-top: 60px;">
-      <label for="identification" style="padding-right:22px;">Login</label>
+  <div class="loginDiv">
+  <ul class="loginList">
+    <li id="loginField">
+      <label for="identification" id="loginLabel">Login</label>
       {{input id='identification' placeholder='Enter Login' value=identification}}
     </li>
-    <li style="height: 35px;">
+    <li id="loginPassField">
       <label for="password">Password</label>
       {{input id='password' placeholder='Enter Password' type='password' value=password}}
     </li>
-    <li style="height: 35px; float: right; margin-right: 56px;">
+    <li id="loginButtonField">
       <button type="submit">Login</button>
     </li>
     <li>
