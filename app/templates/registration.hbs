@@ -1,32 +1,23 @@
 <h1>Registration</h1>
-<div style="position: absolute;
-margin: auto;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 300px;
-height: 250px;
-background-color: #E9E581;
-border-radius: 12px;">
-<ul style="list-style: none; margin-left: 10px;"> <!-- lol -->
-<li style="margin-top: 30px;">
-  <label style="padding-right:10px;">Username</label>
+<div class="registrationDiv">
+<ul class="registrationList">
+<li class="registrationListItem">
+  <label id="registrationUserLabel">Username</label>
   {{input}}
 </li>
-<li style="margin-top: 30px;">
-  <label style="padding-right:34px;">Email</label>
+<li class="registrationListItem">
+  <label id="registrationEmailLabel">Email</label>
   {{input}}
 </li>
-<li style="margin-top: 30px;">
-  <label style="padding-right:13px;">Password</label>
+<li class="registrationListItem">
+  <label id="registrationPassLabel">Password</label>
   {{input}}
 </li>
-<li style="margin-top: 30px;">
-  <label for="password" style="padding-right:21px;">Confirm</label>
+<li class="registrationListItem">
+  <label id="registrationConfimLabel" for="password">Confirm</label>
   {{input}}
 </li>
-<li style="margin-top: 15px; float: right; margin-right: 46px;">
+<li id="registrationButtonItem">
   <button>Login</button>
 </li>
 <li>

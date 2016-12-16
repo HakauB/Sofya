@@ -188,6 +188,49 @@ label {
 }
 
 /* Registration */
+.registrationDiv {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	background-color: #E9E581;
+	border-radius: 12px;
+}
+
+.registrationList {
+	list-style: none;
+	margin-left: 10px;
+}
+
+.registrationListItem {
+	margin-top: 30px;
+}
+
+#registrationButtonItem {
+	margin-top: 15px;
+	float: right;
+	margin-right: 46px;
+}
+
+#registrationUserLabel {
+	padding-right:10px;
+}
+
+#registrationEmailLabel {
+	padding-right:34px;
+}
+
+#registrationPassLabel {
+	padding-right:13px;
+}
+
+#registrationConfirmLabel {
+	padding-right:21px;
+}
 
 /* Making the header responsive. */
 
