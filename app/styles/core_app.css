@@ -221,15 +221,15 @@ label {
 }
 
 #registrationEmailLabel {
-	padding-right:34px;
+	padding-right:48px;
 }
 
 #registrationPassLabel {
-	padding-right:13px;
+	padding-right:14px;
 }
 
 #registrationConfirmLabel {
-	padding-right:21px;
+	padding-right:31px;
 }
 
 /* Making the header responsive. */
