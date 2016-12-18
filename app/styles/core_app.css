@@ -151,6 +151,17 @@ label {
 }
 
 /* Login */
+
+.formHeader {
+	text-align: center;
+	font:32px Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #fff;
+	background-color: #DE1B1B;
+	position: absolute;
+	top: 60px;
+}
+
 .loginDiv {
 	position: absolute;
   	margin: auto;
